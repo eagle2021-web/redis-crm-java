@@ -1,0 +1,113 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    #以下是 com.alibaba druid的配置
+    druid:
+      aop-patterns: com.eagle.crm.*  #springbean监控
+      filters: stat,wall,slf4j  #所有开启的功能
+      stat-view-servlet:  #监控页配置
+        enabled: true
+        login-username: admin
+        login-password: admin
+        resetEnable: false
+      web-stat-filter:  #web监控
+        enabled: true
+        urlPattern: /*
+        exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+#
+      filter:
+        stat: #sql监控
+          enabled: true
+          #时间超过1000毫秒是慢查询
+          slow-sql-millis: 1000
+          logSlowSql: true
+#  配置防火墙 https://github.com/alibaba/druid/wiki/%E9%85%8D%E7%BD%AE-wallfilter
+        wall: #防火墙
+          enabled: true
+          config:
+            #不允许删表，所有删表操作会被截住
+            drop-table-allow: false
+    #以上是 com.alibaba druid的配置
+  redis:
+    host: redis_local
+    port: 6379
+    password:
+    cluster:
+      #设置key的生存时间，当key过期时，它会被自动删除；
+      expire-seconds: 120
+      #设置命令的执行时间，如果超过这个时间，则报错;
+      command-timeout: 5000
+      #设置redis集群的节点信息，其中namenode为域名解析，通过解析域名来获取相应的地址;
+      nodes: redis_local:6379,redis_local:6380,redis_local:6381,redis_local:6389,redis_local:6390,redis_local:6391
+    jedis:
+      pool:
+        max-active: 10000
+
+#      url: redis://lfy:Lfy123456@r-bp1nc7reqesxisgxpipd.redis.rds.aliyuncs.com:6379
+    lettuce:
+      pool:
+        max-active: 10
+        min-idle: 5
+    client-type: jedis
+
+
+
+
+
+  #    type: com.zaxxer.hikari.HikariDataSource
+  jdbc:
+    template:
+      query-timeout: 3 #3秒
+#  boot:
+#    admin:
+#      client:
+#        url: http://localhost:8888
+#        instance:
+#          prefer-ip: true  #使用ip注册进来
+#  application:
+#    name: boot-05-web-admin
+
+
+
+
+# 配置mybatis规则、使用MyBatisPlus则此项配置无效
+mybatis:
+#  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  configuration:  # 指定mybatis全局配置文件中的相关配置项，使用这个configuration，则注释掉 config-location
+    map-underscore-to-camel-case: true  #开启驼峰命名识别转换
+
+
+# management 是所有actuator的配置
+# management.endpoint.端点名.xxxx  对某个端点的具体配置
+#management:
+#  endpoints:
+#    enabled-by-default: true  #默认开启所有监控端点  true
+#    web:
+#      exposure:
+#        include: '*' # 以web方式暴露所有端点
+#
+#  endpoint:   #对某个端点的具体配置
+#    health:
+#      show-details: always
+#      enabled: true
+#
+#    info:
+#      enabled: true
+#
+#    beans:
+#      enabled: true
+#
+#    metrics:
+#      enabled: true
+#
+#info:
+#  appName: boot-admin
+#  appVersion: 1.0.0
+#  mavenProjectName: boot-05-web-admin
+#  mavenProjectVersion: 0.0.1-SNAPSHOT
+
+

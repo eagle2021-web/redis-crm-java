@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "name": "management.endpoint.myservice",
+      "type": "com.eagle.crm.acutuator.endpoint.MyServiceEndPoint",
+      "sourceType": "com.eagle.crm.acutuator.endpoint.MyServiceEndPoint"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "com.eagle.crm.config.RedisProperties",
+      "sourceType": "com.eagle.crm.config.RedisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "management.endpoint.myservice.cache.time-to-live",
+      "type": "java.time.Duration",
+      "description": "Maximum time that a response can be cached.",
+      "sourceType": "com.eagle.crm.acutuator.endpoint.MyServiceEndPoint",
+      "defaultValue": "0ms"
+    },
+    {
+      "name": "management.endpoint.myservice.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the myservice endpoint.",
+      "sourceType": "com.eagle.crm.acutuator.endpoint.MyServiceEndPoint",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.redis.cluster.command-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.eagle.crm.config.RedisProperties"
+    },
+    {
+      "name": "spring.redis.cluster.expire-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.eagle.crm.config.RedisProperties"
+    },
+    {
+      "name": "spring.redis.cluster.nodes",
+      "type": "java.lang.String",
+      "sourceType": "com.eagle.crm.config.RedisProperties"
+    }
+  ],
+  "hints": []
+}
