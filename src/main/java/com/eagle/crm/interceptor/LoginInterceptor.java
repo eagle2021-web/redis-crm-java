@@ -1,6 +1,7 @@
 package com.eagle.crm.interceptor;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -14,6 +15,7 @@ import javax.servlet.http.HttpSession;
  * 2、把这些配置放在容器中
  */
 @Slf4j
+@Component
 public class LoginInterceptor implements HandlerInterceptor {
 
     /**

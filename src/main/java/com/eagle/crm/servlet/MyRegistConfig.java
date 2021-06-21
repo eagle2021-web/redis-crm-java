@@ -14,7 +14,7 @@ import java.util.Arrays;
  * 2、DispatcherServlet --> /
  */
 // (proxyBeanMethods = true)：保证依赖的组件始终是单实例的
-@Configuration(proxyBeanMethods = true)
+//@Configuration(proxyBeanMethods = true)
 public class MyRegistConfig {
 
     @Bean

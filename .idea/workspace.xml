@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe932ece-4a83-4d68-9948-7fa5910ef6ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_client_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_client_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_54_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_54_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_54_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_54_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_54_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_54_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_stream_2_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_core_2_2_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_servlet_2_2_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_websockets_jsr_2_2_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_4_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_cache_cache_api_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_49.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_zero_allocation_hashing_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_3_spec_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_websocket_jboss_websocket_api_1_1_spec_2_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_threads_jboss_threads_3_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_8_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_8_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_bean_3_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_3_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_redisson_redisson_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_undertow_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_client_wildfly_client_config_1_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_common_wildfly_common_1_5_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-05-web-admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/Boot05WebAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eagle/crm/BootJavaCrm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/bean/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/bean/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/bean/Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/bean/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/bean/User3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/controller/CrmController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/controller/JedisClientCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eagle/crm/config/JedisClientCluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eagle/crm/controller/RedisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eagle/crm/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/interceptor/RedisUrlCountInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eagle/crm/interceptor/RedisUrlCountInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/mapper/AccountMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/mapper/CityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/service/CityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/service/JobService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/service/impl/AccountServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/service/impl/CityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eagle/crm/servlet/MyRegistConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eagle/crm/servlet/MyRegistConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AccountMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/atguigu/admin/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/atguigu/admin/Boot05WebAdminApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/atguigu/admin/JsonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/atguigu/admin/Junit5Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/atguigu/admin/TestingAStackDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/Boot05WebAdminApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/bean/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/bean/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/bean/Job.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/bean/User3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/controller/CrmController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eagle/crm/controller/CrmController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/controller/JedisClientCluster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/controller/RedisController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eagle/crm/controller/RedisController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eagle/crm/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/interceptor/RedisUrlCountInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eagle/crm/interceptor/RedisUrlCountInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/mapper/AccountMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/mapper/CityMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/service/CityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/service/JobService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/service/impl/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/service/impl/CityServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eagle/crm/servlet/MyRegistConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eagle/crm/servlet/MyRegistConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/job.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AccountMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap-fileupload.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap-reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/clndr.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/jquery-ui-1.10.3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/jquery.stepy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/table-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/404-error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/500-error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/avatar-mini.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/blog/blog-avatar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/blog/blog-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/blog/blog-sm-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/blog/blog-thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/blog/blog-thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/blog/blog-thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/blog/blog-wide-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/blog/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/blog/image3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/details_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gallery/image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gallery/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gallery/image3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gallery/image4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gallery/image5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gallery/sm-img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gallery/sm-img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gallery/sm-img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/input-spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/invoice-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/lockscreen-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/login-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/login-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/logo_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/photos/user-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/photos/user1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/photos/user2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/photos/user3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/photos/user4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/photos/user5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/plus-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/advanced-datatable/css/demo_page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/advanced-datatable/css/demo_table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/advanced-datatable/js/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-colorpicker/css/colorpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-colorpicker/img/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-colorpicker/img/saturation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-colorpicker/js/bootstrap-colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-datepicker/css/datepicker-custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-datepicker/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-daterangepicker/daterangepicker-bs3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-daterangepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-daterangepicker/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-datetimepicker/css/datetimepicker-custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-fileupload.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-inputmask/bootstrap-inputmask.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-timepicker/css/timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-timepicker/js/bootstrap-timepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-wysihtml5/bootstrap-wysihtml5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-wysihtml5/bootstrap-wysihtml5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-wysihtml5/wysihtml5-0.3.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap-wysihtml5/wysiwyg-color.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/c3-chart/c3-chart.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/c3-chart/c3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/c3-chart/c3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/calendar/clndr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/calendar/evnt.calendar.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/calendar/moment-2.2.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/chart-js/Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/chart-js/chartjs.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ckeditor/ckeditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ckeditor/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ckeditor/contents.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ckeditor/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ckeditor/plugins/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ckeditor/skins/moono/editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ckeditor/skins/moono/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ckeditor/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/dashboard-chart-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/data-tables/DT_bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/data-tables/DT_bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/data-tables/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/data-tables/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/data-tables/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/data-tables/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/dropzone/css/dropzone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/dropzone/dropzone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/dropzone/images/spritemap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/dynamic_table_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/easypiechart/easypiechart-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/easypiechart/jquery.easypiechart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/editable-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/external-dragging-calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/flot-chart/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/flot-chart/jquery.flot.pie.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/flot-chart/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/flot-chart/jquery.flot.selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/flot-chart/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/flot-chart/jquery.flot.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/flot-chart/jquery.flot.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/flot.chart.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/fuelux/css/tree-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/fuelux/img/tree-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/fuelux/js/spinner.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/fuelux/js/tree.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/fullcalendar/bootstrap-fullcalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/fullcalendar/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/google-map/gmaps-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/google-map/gmaps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/gritter/css/jquery.gritter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/gritter/js/gritter-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/gritter/js/jquery.gritter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/jquery.icheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/flat/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/flat/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/flat/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/flat/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/flat/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/flat/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/flat/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/flat/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/flat/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/flat/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/flat/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/flat/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/minimal/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/minimal/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/minimal/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/minimal/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/minimal/minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/minimal/minimal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/minimal/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/minimal/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/minimal/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/minimal/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/minimal/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/minimal/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/square/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/square/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/square/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/square/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/square/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/square/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/square/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/square/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/square/square.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/square/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/square/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/iCheck/skins/square/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/icheck-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ion.rangeSlider-1.8.2/css/ion.rangeSlider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ion.rangeSlider-1.8.2/css/ion.rangeSlider.skinFlat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ion.rangeSlider-1.8.2/img/sprite-skin-flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ion.rangeSlider-1.8.2/js/ion-rangeSlider/ion.rangeSlider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ios-switch/ios-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ios-switch/switchery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/ios-switch/switchery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-1.10.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-migrate-1.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-multi-select/css/multi-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-multi-select/img/switch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-multi-select/js/jquery.multi-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-multi-select/js/jquery.quicksearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-tags-input/jquery.tagsinput.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-tags-input/jquery.tagsinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-ui-1.9.2.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.isotope.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.nicescroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.stepy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jvector-map/jqvmap/data/jquery.vmap.sampledata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jvector-map/jqvmap/jquery.vmap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jvector-map/jqvmap/maps/continents/jquery.vmap.asia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jvector-map/jqvmap/maps/continents/jquery.vmap.australia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jvector-map/jqvmap/maps/continents/jquery.vmap.europe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jvector-map/jqvmap/maps/jquery.vmap.world.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/modernizr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/morris-chart/morris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/morris-chart/morris.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/morris-chart/morris.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/morris-chart/raphael-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/multi-select-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/nestable-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/nestable/jquery.nestable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/nestable/jquery.nestable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/pickers-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/sparkline/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/sparkline/sparkline-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/spinner-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/tagsinput-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/tree-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/validation-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/common.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/4xx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/5xx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/form/form_layouts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/table/basic_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/table/dynamic_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/table/editable_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/table/pricing_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/table/responsive_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/admin/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/admin/Boot05WebAdminApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/admin/JsonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/admin/Junit5Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/admin/TestingAStackDemo$TableController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/admin/TestingAStackDemo$WhenNew$AfterPushing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/admin/TestingAStackDemo$WhenNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/admin/TestingAStackDemo.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1uFBcn6gsUcSzC6Zg0A3lMJ1HzY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.eagle.crm.controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootJavaCrm" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="crm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eagle.crm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eagle.crm.BootJavaCrm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BootJavaCrm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe932ece-4a83-4d68-9948-7fa5910ef6ea" name="Default Changelist" comment="" />
+      <created>1624251543060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624251543060</updated>
+      <workItem from="1624251545013" duration="2635000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

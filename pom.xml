@@ -8,10 +8,10 @@
         <version>2.4.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.atguigu</groupId>
-    <artifactId>boot-05-web-admin</artifactId>
+    <groupId>com.eagle</groupId>
+    <artifactId>crm-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>boot-05-web-admin</name>
+    <name>crm-java</name>
     <description>后台管理系统模板</description>
 
     <properties>
@@ -87,7 +87,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <!--            <version>5.1.49</version>-->
+<!--            <version>5.1.49</version>-->
         </dependency>
 
 
@@ -144,34 +144,54 @@
             <artifactId>redisson</artifactId>
             <version>2.7.0</version>
         </dependency>
-<!--        json-->
+        <!--        json-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.47</version>
         </dependency>
     </dependencies>
-
     <build>
-        <plugins>
-            <!--            <plugin>-->
-            <!--&lt;!&ndash;                <groupId>org.springframework.boot</groupId>&ndash;&gt;-->
-            <!--&lt;!&ndash;                <artifactId>spring-boot-maven-plugin</artifactId>&ndash;&gt;-->
-            <!--&lt;!&ndash;                热更新插件&ndash;&gt;-->
-            <!--                <groupId>org.springframework.boot</groupId>-->
-            <!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
-            <!--&lt;!&ndash;                <version>2.4.0.RELEASE</version>&ndash;&gt;-->
-            <!--                <configuration>-->
-            <!--                    <fork>true</fork>-->
-            <!--                </configuration>-->
-            <!--            </plugin>-->
-        </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory><!--所在的目录-->
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                    <include>**/*.yaml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
     </build>
+    <!--    <build>-->
+    <!--        <plugins>-->
+    <!--            <plugin>-->
+    <!--&lt;!&ndash;                <groupId>org.springframework.boot</groupId>&ndash;&gt;-->
+    <!--&lt;!&ndash;                <artifactId>spring-boot-maven-plugin</artifactId>&ndash;&gt;-->
+    <!--&lt;!&ndash;                热更新插件&ndash;&gt;-->
+    <!--                <groupId>org.springframework.boot</groupId>-->
+    <!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+    <!--&lt;!&ndash;                <version>2.4.0.RELEASE</version>&ndash;&gt;-->
+    <!--                <configuration>-->
+    <!--                    <fork>true</fork>-->
+    <!--                </configuration>-->
+    <!--            </plugin>-->
+    <!--        </plugins>-->
+    <!--    </build>-->
     <repositories>
-        <repository>
-            <id>nd.repository</id>
-            <name>NetDragon HY Maven Repository</name>
-            <url>http://nexus.sdp.nd/nexus/content/groups/public/</url>
-        </repository>
+<!--        <repository>-->
+<!--            <id>nd.repository</id>-->
+<!--            <name>NetDragon HY Maven Repository</name>-->
+<!--            <url>http://nexus.sdp.nd/nexus/content/groups/public/</url>-->
+<!--        </repository>-->
     </repositories>
 </project>

@@ -2,7 +2,7 @@ package com.eagle.crm.interceptor;
 
 import com.eagle.crm.config.RedisConfig;
 import com.eagle.crm.config.RedisProperties;
-import com.eagle.crm.controller.JedisClientCluster;
+import com.eagle.crm.config.JedisClientCluster;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
