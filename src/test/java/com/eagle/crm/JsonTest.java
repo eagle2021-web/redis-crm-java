@@ -1,16 +1,23 @@
 package com.eagle.crm;
 
 import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.function.BiConsumer;
 
 @Slf4j
-@SpringBootTest
 public class JsonTest {
+
     //读取json文件
     public static String readJsonFile(String fileName) {
         String jsonStr = "";
@@ -31,17 +38,20 @@ public class JsonTest {
             e.printStackTrace();
             return null;
         }
-
     }
-    @DisplayName("22")
+    @DisplayName("打印JSON")
     @Test
-    void aa(){
-        String path = JsonTest.class.getClassLoader().getResource("job.json").getPath();
+    void json_check(){
+        String path = JsonTest.class.getClassLoader().getResource("json/customer.json").getPath();
         String s = readJsonFile(path);
 //        String s = readJsonFile("..\\job.json");
         JSONArray parse = JSONArray.parseArray(s);
         for (Object o : parse) {
-            System.out.println(o);
+            JSONObject map = (JSONObject)o;
+            System.out.println(map.size());
+            return;
+//            System.out.println(o);
         }
     }
+
 }
