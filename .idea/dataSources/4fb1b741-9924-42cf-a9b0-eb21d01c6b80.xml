@@ -743,196 +743,230 @@
     <table id="216" parent="3" name="zhufeng_department"/>
     <table id="217" parent="3" name="zhufeng_job"/>
     <table id="218" parent="3" name="zhufeng_user"/>
-    <column id="219" parent="215" name="id">
+    <table id="219" parent="3" name="zhufent_visitor"/>
+    <column id="220" parent="215" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="220" parent="215" name="name">
+    <column id="221" parent="215" name="name">
       <Position>2</Position>
       <DataType>varchar(32)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="221" parent="215" name="sex">
+    <column id="222" parent="215" name="sex">
       <Position>3</Position>
       <DataType>tinyint(4)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="222" parent="215" name="email">
+    <column id="223" parent="215" name="email">
       <Position>4</Position>
       <DataType>varchar(32)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="223" parent="215" name="phone">
+    <column id="224" parent="215" name="phone">
       <Position>5</Position>
       <DataType>char(11)|0s</DataType>
     </column>
-    <column id="224" parent="215" name="QQ">
+    <column id="225" parent="215" name="QQ">
       <Position>6</Position>
       <DataType>varchar(16)|0s</DataType>
     </column>
-    <column id="225" parent="215" name="we_chat">
+    <column id="226" parent="215" name="we_chat">
       <Position>7</Position>
       <DataType>varchar(32)|0s</DataType>
     </column>
-    <column id="226" parent="215" name="type">
+    <column id="227" parent="215" name="type">
       <Position>8</Position>
       <DataType>varchar(32)|0s</DataType>
     </column>
-    <column id="227" parent="215" name="address">
+    <column id="228" parent="215" name="address">
       <Position>9</Position>
       <DataType>varchar(128)|0s</DataType>
     </column>
-    <column id="228" parent="215" name="userId">
+    <column id="229" parent="215" name="userId">
       <Position>10</Position>
       <DataType>int(11)|0s</DataType>
     </column>
-    <column id="229" parent="215" name="department_id">
+    <column id="230" parent="215" name="department_id">
       <Position>11</Position>
       <DataType>int(11)|0s</DataType>
     </column>
-    <column id="230" parent="215" name="time">
+    <column id="231" parent="215" name="time">
       <Position>12</Position>
       <DataType>date|0s</DataType>
     </column>
-    <column id="231" parent="215" name="state">
+    <column id="232" parent="215" name="state">
       <Position>13</Position>
       <DataType>tinyint(4)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <key id="232" parent="215" name="PRIMARY">
+    <key id="233" parent="215" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="233" parent="216" name="id">
+    <column id="234" parent="216" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="234" parent="216" name="name">
+    <column id="235" parent="216" name="name">
       <Position>2</Position>
       <DataType>varchar(32)|0s</DataType>
     </column>
-    <column id="235" parent="216" name="description">
+    <column id="236" parent="216" name="description">
       <Position>3</Position>
       <DataType>varchar(256)|0s</DataType>
     </column>
-    <column id="236" parent="216" name="time">
+    <column id="237" parent="216" name="time">
       <Position>4</Position>
       <DataType>date|0s</DataType>
     </column>
-    <column id="237" parent="216" name="state">
+    <column id="238" parent="216" name="state">
       <Position>5</Position>
       <DataType>tinyint(4)|0s</DataType>
     </column>
-    <key id="238" parent="216" name="PRIMARY">
+    <key id="239" parent="216" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="239" parent="217" name="id">
+    <column id="240" parent="217" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="240" parent="217" name="name">
+    <column id="241" parent="217" name="name">
       <Position>2</Position>
       <DataType>varchar(32)|0s</DataType>
     </column>
-    <column id="241" parent="217" name="description">
+    <column id="242" parent="217" name="description">
       <Position>3</Position>
       <DataType>varchar(256)|0s</DataType>
     </column>
-    <column id="242" parent="217" name="power">
+    <column id="243" parent="217" name="power">
       <Position>4</Position>
       <DataType>varchar(64)|0s</DataType>
     </column>
-    <column id="243" parent="217" name="time">
+    <column id="244" parent="217" name="time">
       <Position>5</Position>
       <DataType>date|0s</DataType>
     </column>
-    <column id="244" parent="217" name="state">
+    <column id="245" parent="217" name="state">
       <Position>6</Position>
       <DataType>tinyint(4)|0s</DataType>
     </column>
-    <key id="245" parent="217" name="PRIMARY">
+    <key id="246" parent="217" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="246" parent="218" name="id">
+    <column id="247" parent="218" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="247" parent="218" name="name">
+    <column id="248" parent="218" name="name">
       <Position>2</Position>
       <DataType>varchar(32)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="248" parent="218" name="password">
+    <column id="249" parent="218" name="password">
       <Position>3</Position>
       <DataType>varchar(32)|0s</DataType>
     </column>
-    <column id="249" parent="218" name="sex">
+    <column id="250" parent="218" name="sex">
       <Position>4</Position>
       <DataType>tinyint(4)|0s</DataType>
     </column>
-    <column id="250" parent="218" name="email">
+    <column id="251" parent="218" name="email">
       <Position>5</Position>
       <DataType>varchar(32)|0s</DataType>
     </column>
-    <column id="251" parent="218" name="phone">
+    <column id="252" parent="218" name="phone">
       <Position>6</Position>
       <DataType>varchar(16)|0s</DataType>
     </column>
-    <column id="252" parent="218" name="department_id">
+    <column id="253" parent="218" name="department_id">
       <Position>7</Position>
       <DataType>int(11)|0s</DataType>
     </column>
-    <column id="253" parent="218" name="job_id">
+    <column id="254" parent="218" name="job_id">
       <Position>8</Position>
       <DataType>int(11)|0s</DataType>
     </column>
-    <column id="254" parent="218" name="description">
+    <column id="255" parent="218" name="description">
       <Position>9</Position>
       <DataType>varchar(256)|0s</DataType>
     </column>
-    <column id="255" parent="218" name="time">
+    <column id="256" parent="218" name="time">
       <Position>10</Position>
       <DataType>varchar(16)|0s</DataType>
     </column>
-    <column id="256" parent="218" name="state">
+    <column id="257" parent="218" name="state">
       <Position>11</Position>
       <DataType>tinyint(4)|0s</DataType>
     </column>
-    <index id="257" parent="218" name="department_id">
+    <index id="258" parent="218" name="department_id">
       <ColNames>department_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="258" parent="218" name="fk_job_id">
+    <index id="259" parent="218" name="fk_job_id">
       <ColNames>job_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="259" parent="218" name="PRIMARY">
+    <key id="260" parent="218" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="260" parent="218" name="zhufeng_user_ibfk_1">
+    <foreign-key id="261" parent="218" name="zhufeng_user_ibfk_1">
       <ColNames>department_id</ColNames>
       <RefTableName>zhufeng_department</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="261" parent="218" name="fk_job_id">
+    <foreign-key id="262" parent="218" name="fk_job_id">
       <ColNames>job_id</ColNames>
       <RefTableName>zhufeng_job</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
+    <column id="263" parent="219" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="264" parent="219" name="customer_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="265" parent="219" name="visit_text">
+      <Position>3</Position>
+      <DataType>varchar(128)|0s</DataType>
+    </column>
+    <column id="266" parent="219" name="visit_date">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="267" parent="219" name="time">
+      <Position>5</Position>
+      <Comment>hh:mm:ss</Comment>
+      <DataType>time|0s</DataType>
+    </column>
+    <column id="268" parent="219" name="state">
+      <Position>6</Position>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <key id="269" parent="219" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>

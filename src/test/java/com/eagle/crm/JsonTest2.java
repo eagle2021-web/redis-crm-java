@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -20,9 +21,9 @@ public class JsonTest2 {
     @Autowired
     private CustomerServiceImpl customerServiceImpl;
 
-    @DisplayName("写入JSON")
+    @DisplayName("写入customer")
     @Test
-    void into_mysql() {
+    void write_customer() {
         String path = JsonTest.class.getClassLoader().getResource("json/customer.json").getPath();
         String s = JsonTest.readJsonFile(path);
         JSONArray parse = JSONArray.parseArray(s);
@@ -40,12 +41,12 @@ public class JsonTest2 {
                 setPhone(map.getString("phone"));
                 setName(map.getString("name"));
                 setId(map.getInteger("id"));
-                setTime(new Date());
+//                setTime(new Date());
                 setState(map.getByte("state"));
                 setEmail(map.getString("email"));
             }};
            customerServiceImpl.save(customer);
         }
-
     }
+
 }
